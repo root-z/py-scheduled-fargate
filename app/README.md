@@ -1,0 +1,1 @@
+This is the example application code with Dockerfile to run on AWS Fargate.
