@@ -1,5 +1,5 @@
 import time
 
 print('start')
-time.sleep(30)
+time.sleep(5)
 print('finish')
