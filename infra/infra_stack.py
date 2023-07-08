@@ -22,7 +22,7 @@ class InfraStack(Stack):
             cluster=cluster,
             scheduled_fargate_task_image_options=ecsp.ScheduledFargateTaskImageOptions(
                 image=ecs.AssetImage(
-                    str(Path("..") / "app"), platform=Platform.LINUX_AMD64
+                    str(Path("app")), platform=Platform.LINUX_AMD64
                 ),
                 memory_limit_mib=512,
             ),
